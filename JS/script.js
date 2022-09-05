@@ -128,3 +128,91 @@ console.log(paddedString1);
 
 
 
+// repeat
+
+const holiday = "Happy holiday!";
+const result5 = holiday.repeat(3);
+console.log(result5);
+
+
+
+// replace 
+
+const message4 = "ball bat";
+let result6 = message4.replace('b', 'c');
+console.log(result6);
+
+
+
+// replaceAll
+
+const message5 = "ball bat";
+let result7 = message5.replaceAll('b', 'c');
+console.log(result7);
+
+
+
+// search
+
+let sentence3= "I love JavaScript.";
+let regExp = /[A-Z]/;
+let indexReg = sentence3.search(regExp);
+console.log(indexReg);
+
+
+
+// slice
+
+const message6 = "JavaScript is fun";
+let result8 = message6.slice(0, 10);
+console.log(result8);
+
+
+
+// split
+
+const message7 = "JavaScript::is::fun";
+let result9 = message7.split("::");
+console.log(result9);
+
+
+
+//  startsWith
+
+const message8 = "JavaScript is fun";
+let result10 = message8.startsWith("Java");
+console.log(result10);   
+result10 = message8.startsWith("Script");
+console.log(result10);
+
+
+
+// substring
+
+const message9 = "JavaScript is fun.";
+let result11 = message9.substring(0, 10);
+console.log(result11);
+
+
+
+// toLowerCase
+
+const message10 = "JAVASCRIPT IS FUN";
+const lowerMessage = message10.toLowerCase();
+console.log(lowerMessage);
+
+
+
+// toUpperCase
+
+const message11 = "javascript is fun";
+const upperMessage = message11.toUpperCase();
+console.log(upperMessage);
+
+
+
+// trim
+
+const message12 = "   JAVASCRIPT IS FUN    ";
+const newMessage = message12.trim();
+console.log(newMessage);
