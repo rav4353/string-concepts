@@ -84,13 +84,6 @@ console.log(len);
 
 
 
-// localeCompare
-
-let result3 = 'c'.localeCompare('b');
-console.log(result3);
-
-
-
 // match
 
 const message3 = "JavaScript is a fun programming language.";
